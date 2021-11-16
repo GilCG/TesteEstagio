@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body class="form-registro">
+    <div class="container">
+        <nav class="nav-registro">
+            <ul class="menu-registro">
+                <a class="link-registro" href="index.html"><li class="item-registro">Registrar</li></a>
+                <a class="link-registro" href="index.html"><li class="item-registro">Consultar</li></a>
+            </ul>
+        </nav>
+        <section class="section-registro">
+            <h1>Novo registro</h1>
+            <hr><br><br>
+
+            <form method="post" action="processa.php" >
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Excluir" class="btn" >
+                <br><br>
+
+               Nº de Registro <br>
+               <input type="text" name="registro" class="campo" maxlength="40" required autofocus><br>
+               Nome do Livro<br>
+               <input type="text" name="livro" class="campo" maxlength="40" required autofocus><br>
+                Nome do autor<br>
+               <input type="text" name="autor" class="campo" maxlength="40" required autofocus><br>
+               ISBN <br>
+               <input type="text" name="isbn" class="campo" maxlength="40" required autofocus><br>
+               Cópias<br>
+               <input type="text" name="copias" class="campo" maxlength="40" required autofocus><br>
+                Páginas<br>
+               <input type="text" name="paginas" class="campo" maxlength="40" required autofocus><br>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
+
+
+       
